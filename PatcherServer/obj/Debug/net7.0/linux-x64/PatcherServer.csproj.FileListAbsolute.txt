@@ -1,0 +1,9 @@
+C:\Users\maqso\Desktop\misc\patcher\patcherserver\PatcherServer\PatcherServer\obj\Debug\net7.0\linux-x64\PatcherServer.csproj.AssemblyReference.cache
+C:\Users\maqso\Desktop\misc\patcher\patcherserver\PatcherServer\PatcherServer\obj\Debug\net7.0\linux-x64\PatcherServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maqso\Desktop\misc\patcher\patcherserver\PatcherServer\PatcherServer\obj\Debug\net7.0\linux-x64\PatcherServer.AssemblyInfoInputs.cache
+C:\Users\maqso\Desktop\misc\patcher\patcherserver\PatcherServer\PatcherServer\obj\Debug\net7.0\linux-x64\PatcherServer.AssemblyInfo.cs
+C:\Users\maqso\Desktop\misc\patcher\patcherserver\PatcherServer\PatcherServer\obj\Debug\net7.0\linux-x64\PatcherServer.csproj.CoreCompileInputs.cache
+C:\Users\maqso\Desktop\misc\patcher\patcherserver\PatcherServer\PatcherServer\obj\Debug\net7.0\linux-x64\PatcherServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\maqso\Desktop\misc\patcher\patcherserver\PatcherServer\PatcherServer\obj\Debug\net7.0\linux-x64\PatcherServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\maqso\Desktop\misc\patcher\patcherserver\PatcherServer\PatcherServer\obj\Debug\net7.0\linux-x64\PatcherServer.RazorAssemblyInfo.cache
+C:\Users\maqso\Desktop\misc\patcher\patcherserver\PatcherServer\PatcherServer\obj\Debug\net7.0\linux-x64\PatcherServer.RazorAssemblyInfo.cs

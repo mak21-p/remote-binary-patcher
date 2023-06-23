@@ -1,0 +1,4 @@
+﻿:8080 {
+	root * /data
+	file_server browse
+}

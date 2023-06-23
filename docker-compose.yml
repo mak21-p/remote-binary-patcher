@@ -1,0 +1,41 @@
+version: '3.4'
+
+services:
+  caddy:
+    image: caddy:2.6.4
+    restart: unless-stopped
+    container_name: caddy
+    sysctls:
+      net.ipv4.ip_unprivileged_port_start: 0
+    ports:
+      - "8080:8080"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - ./PatcherServer/Caddy/Caddyfile:/etc/caddy/Caddyfile
+      - ./PatcherServer/Caddy/PatchFiles:/data/PatchFiles
+    networks:
+      - patcher-network
+  patcherserver:
+    image: ${DOCKER_REGISTRY-}patcherserver
+    build:
+      context: .
+      dockerfile: PatcherServer/Dockerfile
+    ports:
+      - "5000:443"
+    volumes:
+      - caddy_data:/app/caddy_data
+      - ./PatcherServer/Caddy/PatchFiles:/app/caddy_data/PatchFiles
+      - ./PatcherServer/Certs:/https
+    environment:
+      ASPNETCORE_Kestrel__Certificates__Default__Path: /https/apache-selfsigned.crt
+      ASPNETCORE_Kestrel__Certificates__Default__KeyPath: /https/apache-selfsigned.key
+    networks:
+      - patcher-network
+
+networks:
+  patcher-network:
+
+volumes:
+  caddy_data:
+    driver: local

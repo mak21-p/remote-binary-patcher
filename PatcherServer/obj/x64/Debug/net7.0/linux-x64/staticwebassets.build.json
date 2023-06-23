@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4FZxtytac860VrG2U3nOm+OUavmmWM6CgT3Wpb2ko+k=",
+  "Source": "PatcherServer",
+  "BasePath": "_content/PatcherServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
